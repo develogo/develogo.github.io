@@ -15,7 +15,7 @@ author:  # change following line to your infomation.
   first_name: Felipe  # Be used at index page about me section.
   last_name: Andrade  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: felipedevelogo  # Leave blank if you don't have now
+  github_username: develogo  # Leave blank if you don't have now
   linkedin_id: develogo # Leave blank if you don't have now
   facebook_username: lippeandrade  # Leave blank if you don't have now
   instagram_username: lippeandrade  # Leave blank if you don't have now
