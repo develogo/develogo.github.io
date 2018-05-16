@@ -2,10 +2,10 @@
 
 # Website settings
 title: Felipe Andrade
-description: Meu portfolio
-keywords: Develogo,Portfolio,blog,Jekyll,github,gh-pages,Felipe
+description: Estudante de Si.
+keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
 baseurl:   # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://develogo.github.io # url should be 'http://<github_username>.github.io/homepage' as before
+url: https://develogo.com  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
@@ -15,9 +15,10 @@ author:  # change following line to your infomation.
   first_name: Felipe  # Be used at index page about me section.
   last_name: Andrade  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: develogo  # Leave blank if you don't have now
+  github_username: felipedevelogo  # Leave blank if you don't have now
   linkedin_id: develogo # Leave blank if you don't have now
   facebook_username: lippeandrade  # Leave blank if you don't have now
+  instagram_username: lippeandrade  # Leave blank if you don't have now
   twitter_username: develogo  # Leave blank if you don't have now
   email: felipe@develogo.com  # Leave blank if you don't have now
   #cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
@@ -26,13 +27,15 @@ author:  # change following line to your infomation.
     - name: icon-apache
     - name: fa-linux
   skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
-  desc: Estudante de SI. 
+    - name: icon-java-bold
+    - name: icon-git
+    - name: icon-javascript-alt
+    - name: icon-google
+  desc: Estudante de Sistemas  e um apreciador do Android.. E Pyton... Quem sabe JavaScript... Php? Então, sempre fui ruim com gambiarras.  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: Develogo
+  name: Felipe
 
 # analytics
 ## google analytics
@@ -41,10 +44,10 @@ ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get
 
 ## google optimize
 go:
-  # id:
+  # id: 
 
 ## growingIO
-gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+#gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
   # id:
 
 ## donation
