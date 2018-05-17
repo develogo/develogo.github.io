@@ -12,8 +12,8 @@
   i18n: cpython
   #gh_user: python
   #repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: App mobile com varios Wallpapers.
+  img: /static/assets/img/landing/Android.png
+  desc: App mobile com varios Wallpapers (Em dev).
 
 - name: Google
   i18n: google
