@@ -3,7 +3,7 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Minha Cidade
   i18n: jalpc
-  gh_user: felipedevelogo
+  gh_user: develogo
   repo: MinhaCidade
   img: /static/assets/img/landing/jekyll.png
   desc: Esse projeto é um app mobile onde os usuarios poderão reportar problemas cotidianos com imagens e breves comentarios sobre os mesmos, podendo adicionar imagens sobre o problema. A partir disso adicionará marcações no mapa sobre os problemas de cada cidade, deixando o alerta para os governantes.
