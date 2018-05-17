@@ -13,6 +13,20 @@
     detail: Estagiario
     i18n: company_a_job
   icon: fa-plus-square
+  
+- name:
+    detail: Aeso
+    i18n: company_a
+  desc:
+    detail: Maratona de Programação organizada pela Faculdade Aeso Barros Melo
+    i18n: company_a_desc
+  date:
+    detail: Mai. 2017
+    i18n: company_a_date
+  job:
+    detail: Maratona
+    i18n: company_a_job
+  icon: fa-plus-square
 
 - name:
     detail: Graduação
