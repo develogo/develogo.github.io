@@ -3,30 +3,30 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "teste/assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
-"teste/assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"teste/assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"teste/assets/NOTICES": "a8d1d130b9909728d724354dc06becc1",
-"teste/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"teste/favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"teste/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"teste/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"teste/index.html": "a8a7f97144904ef30a000ae55afa8a96",
-"teste/": "a8a7f97144904ef30a000ae55afa8a96",
-"teste/main.dart.js": "e278e23998f1424f5ccfed7673904a45",
-"teste/manifest.json": "62bfc7107565b93861f38afda78f2c6f",
-"teste/version.json": "7dc2e8b2a135c3ca38c2dd46c186c4c5"
+  "./teste/assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
+"./teste/assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"./teste/assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"./teste/assets/NOTICES": "a8d1d130b9909728d724354dc06becc1",
+"./teste/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"./teste/favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"./teste/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+"./teste/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+"./teste/index.html": "a8a7f97144904ef30a000ae55afa8a96",
+"./teste/": "a8a7f97144904ef30a000ae55afa8a96",
+"./teste/main.dart.js": "e278e23998f1424f5ccfed7673904a45",
+"./teste/manifest.json": "62bfc7107565b93861f38afda78f2c6f",
+"./teste/version.json": "7dc2e8b2a135c3ca38c2dd46c186c4c5"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
   "/",
-"main.dart.js",
-"index.html",
-"assets/NOTICES",
-"assets/AssetManifest.json",
-"assets/FontManifest.json"];
+"./teste/main.dart.js",
+"./teste/index.html",
+"./teste/assets/NOTICES",
+"./teste/assets/AssetManifest.json",
+"./teste/assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
